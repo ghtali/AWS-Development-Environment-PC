@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/winget-settings.schema.json",
+  "telemetry": {
+    "disable": true
+  },
+  "experimentalFeatures": {},
+  "source": {
+    "autoUpdateIntervalInMinutes": 15
+  }
+  // For documentation, see: https://aka.ms/winget-settings
+}

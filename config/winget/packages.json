@@ -1,0 +1,81 @@
+{
+  "$schema": "https://aka.ms/winget-packages.schema.2.0.json",
+  "CreationDate": "2021-05-23T14:41:38.200-00:00",
+  "Sources": [
+    {
+      "Packages": [
+        {
+          "PackageIdentifier": "Microsoft.Whiteboard"
+        },
+        {
+          "PackageIdentifier": "Microsoft.WindowsTerminalPreview"
+        },
+        {
+          "PackageIdentifier": "Microsoft.WindowsTerminal"
+        }
+      ],
+      "SourceDetails": {
+        "Argument": "https://winget.azureedge.net/msstore",
+        "Identifier": "Microsoft.Winget.MSStore.Source_8wekyb3d8bbwe",
+        "Name": "msstore",
+        "Type": "Microsoft.PreIndexed.Package"
+      }
+    },
+    {
+      "Packages": [
+        {
+          "PackageIdentifier": "Microsoft.AzureCLI"
+        },
+        {
+          "PackageIdentifier": "AWS.AWSCLI"
+        },
+        {
+          "PackageIdentifier": "AWS.AWSCLIV2"
+        },
+        {
+          "PackageIdentifier": "AWS.EC2ConfigService"
+        },
+        {
+          "PackageIdentifier": "AWS.EC2LaunchWizard"
+        },
+        {
+          "PackageIdentifier": "AWS.EC2RunCommand"
+        },
+        {
+          "PackageIdentifier": "AWS.EC2SystemsManager"
+        },
+        {
+          "PackageIdentifier": "AWS.EC2WindowsUpdate"
+        },
+        {
+          "PackageIdentifier": "AWS.EC2WindowsUpdateLauncher"
+        },
+        {
+          "PackageIdentifier": "AWS.EC2WindowsUpdatePlugin"
+        },
+        {
+          "PackageIdentifier": "AWS.EC2WindowsUpdateSetup"
+        },
+        {
+          "PackageIdentifier": "AWS.EC2WindowsUpdateSetupLauncher"
+        },
+        {
+          "PackageIdentifier": "Microsoft.PowerToys"
+        },
+        {
+          "PackageIdentifier": "Microsoft.PowerShell"
+        },
+        {
+          "PackageIdentifier": "Microsoft.Teams"
+        }
+      ],
+      "SourceDetails": {
+        "Argument": "https://winget.azureedge.net/cache",
+        "Identifier": "Microsoft.Winget.Source_8wekyb3d8bbwe",
+        "Name": "winget",
+        "Type": "Microsoft.PreIndexed.Package"
+      }
+    }
+  ],
+  "WinGetVersion": "1.0.11692"
+}
