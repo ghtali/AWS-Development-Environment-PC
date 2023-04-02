@@ -1,0 +1,35 @@
+[user]
+	name = Alexandre Nedelec
+[fetch]
+	prune = true
+[pull]
+	rebase = true
+[rebase]
+	autostash = true
+[diff]
+	tool = vsdiffmerge
+[difftool "default-difftool"]
+	cmd = code --wait --diff $LOCAL $REMOTE
+[core]
+	editor = code --wait
+	autocrlf = true
+[difftool]
+	prompt = true
+[remote "origin"]
+	fetch = +refs/pull/*/merge:refs/remotes/origin/pr/*
+[winUpdater]
+	recentlySeenVersion = 2.20.1.windows.1
+[credential]
+	helper = manager-core
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	bcl = !nu $HOME\"\\AWS-Development-Environment-PC\\config\\nu\\gitalias_bcl.nu\"
+	pf = push origin --force-with-lease
+[push]
+	autoSetupRemote = true
+[submodule]
+	recurse = true
+[init]
+	defaultBranch = main
+#[safe]
+#	directory = C:/Users/currentuser/GitSafe
